@@ -1,0 +1,13 @@
+name: OpenDarkMC
+version: ${project.version}
+description: An opensource version of DarkMC
+authors: [ brendanlane ]
+website: bowlingbank.co
+
+main: me.imbl.opendarkmc.main.Main
+api-version: 1.16
+
+commands:
+  tutorial:
+    description: Tutorial Command
+    permission: opendarkmc.command.tutorial

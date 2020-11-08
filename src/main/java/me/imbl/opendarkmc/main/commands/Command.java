@@ -1,4 +1,4 @@
-package me.imbl.opendarkmc.main;
+package me.imbl.opendarkmc.main.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -15,7 +15,6 @@ public class Command implements CommandExecutor {
                 Player player = (Player) sender;
 
                 if (sender.hasPermission("opendarkmc.command.tutorial")) {
-                    Material type;
                     ItemStack diamond = new ItemStack(Material.DIAMOND);
                     ItemStack bricks = new ItemStack(Material.BRICK);
 
